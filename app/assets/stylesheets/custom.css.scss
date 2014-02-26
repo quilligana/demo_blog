@@ -1,0 +1,30 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bg: #b2d8b2;
+$wall: #ccc;
+
+body {
+  padding-top: 0px;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $bg
+}
+
+.container {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	background-color: $wall;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.auth-links {
+	float: right;
+}
+
+.post {
+	margin-top: 10px;
+	background-color: #a6a6a6;
+}
