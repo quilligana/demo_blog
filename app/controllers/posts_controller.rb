@@ -9,7 +9,7 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
  
     if @post.save
-      redirect_to @post
+      redirect_to @post, notice: "Article created!"
     else
       render 'new'
     end
@@ -31,7 +31,7 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
  
     if @post.update(params[:post].permit(:title, :text))
-      redirect_to @post
+      redirect_to @post, notice: "Article updated!"
     else
       render 'edit'
     end
@@ -41,7 +41,7 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @post.destroy
  
-    redirect_to posts_path
+    redirect_to posts_path, notice: "Article deleted!"
   end
 
 private
