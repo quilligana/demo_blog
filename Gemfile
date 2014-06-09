@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'coveralls', require: false
 
 group :doc do
   gem 'sdoc', require: false
@@ -24,4 +25,5 @@ end
 group :test do
   gem 'spork-rails'
   gem 'shoulda-matchers'
+  gem "codeclimate-test-reporter", require: nil
 end

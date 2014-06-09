@@ -4,6 +4,7 @@ This is a demo rails application based around a blog with user authentication an
 
 [![Build Status](https://travis-ci.org/quilligana/demo_blog.svg?branch=master)](https://travis-ci.org/quilligana/demo_blog)
 [![Code Climate](https://codeclimate.com/github/quilligana/demo_blog.png)](https://codeclimate.com/github/quilligana/demo_blog)
+[![Coverage Status](https://img.shields.io/coveralls/quilligana/demo_blog.svg)](https://coveralls.io/r/quilligana/demo_blog)
 
 ##Installation
 
