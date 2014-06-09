@@ -266,18 +266,6 @@
         1,
         null
       ],
-      "/Users/aidanquilligan/rails_projects/demo_blog/spec/models/post_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        2,
-        2,
-        2,
-        2,
-        null,
-        null
-      ],
       "/Users/aidanquilligan/rails_projects/demo_blog/app/models/post.rb": [
         1,
         1,
@@ -285,6 +273,6 @@
         null
       ]
     },
-    "timestamp": 1402348904
+    "timestamp": 1402349399
   }
 }
