@@ -3,3 +3,5 @@ rvm:
   - 2.0.0
 before_script:
   - cp config/database.yml.travis config/database.yml
+env: 
+  - "CODECLIMATE_REPO_TOKEN=c1c86f2685679412fde677f46a1fb5bd3a9764fe41c19e8d4a0fc0250b17bb60c "
