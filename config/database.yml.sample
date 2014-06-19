@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: db/your_dev_database
+  pool: 5
+  username: username
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: db/your_test_database
+  pool: 5
+  username: username
