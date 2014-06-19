@@ -55,6 +55,7 @@ This application is tested with RSpec. To setup testing:
 
 If you haven't done so already:
 
+- Run `bundle install`
 - Change the title of the `config/database.yml.sample` file to `config/database.yml`
 - Run `rake db:create'
 - Run `rake db:migrate`
