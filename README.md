@@ -10,11 +10,14 @@ To keep tabs on my code I've added some external code monitoring services as you
 
 ##Features
 
-I am constantly adding new features to this application for demonstration purposes. If you are interested in hiring me, and you would like to see a particular feature built out, just add it to the GitHub Issues and I will do my best to add it as soon as possible.
+I am constantly adding new features to this application for demonstration purposes. If you are interested in hiring me, and you would like to see a particular feature built out, just add it to the GitHub Issues and I will do my best to add it as soon as possible. For now, here is a list of what's done and what's in the pipeline.
 
-- [x] Blog application
+###Completed
+
+- [x] Basic blog application
 - [x] Basic user authentication and authorization
 
+###TODO
 
 - [ ] Deploy to Heroku
 - [ ] Login with Twitter or Facebook using OmniAuth
