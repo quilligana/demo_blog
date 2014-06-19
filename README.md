@@ -19,6 +19,7 @@ I am constantly adding new features to this application for demonstration purpos
 
 ###TODO
 
+- [ ] Implement `./bin/setup` configuration
 - [ ] Deploy to Heroku
 - [ ] Login with Twitter or Facebook using OmniAuth
 - [ ] Email notifications to users
@@ -40,11 +41,28 @@ cd demo_blog
 ./bin/setup
 ```
 
-But for now, you can just clone the repository and fight your own way through setup and configuration.
+But for now, you can just clone the repository. Then:
+
+- Change the title of the `config/database.yml.sample` file to `config/database.yml`
+- Run `rake db:create'
+- Run `rake db:migrate`
+- Away you go
 
 ##Testing
 
-RSpec has been added as a default task in the Rakefile so just run `rake`
+This application is tested with RSpec. To setup testing:
+
+If you haven't done so already:
+
+- Change the title of the `config/database.yml.sample` file to `config/database.yml`
+- Run `rake db:create'
+- Run `rake db:migrate`
+
+Then:
+
+- Run `rake test:prepare`
+- Run `rspec .`
+- Hopefully you'll see plenty of green
 
 
 ## Contributing
