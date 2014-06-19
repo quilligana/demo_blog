@@ -30,12 +30,29 @@ I am constantly adding new features to this application for demonstration purpos
 
 ##Installation
 
-TODO
+I'm quite a fan of ThoughtBot so it is my intention to use their convention of making setup as streamlined as possible with a `./bin/setup` configuration.
+
+So it will just be a matter of doing:
+
+```
+git clone git@github.com:quilligana/demo_blog.git
+cd demo_blog
+./bin/setup
+```
+
+But for now, you can just clone the repository and fight your own way through setup and configuration.
 
 ##Testing
 
-TODO
+RSpec has been added as a default task in the Rakefile so just run `rake`
 
-##License
 
-MIT
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+This gem was created by Aidan Quilligan and is released under the MIT license.
