@@ -1,10 +1,27 @@
 #README
 
-This is a demo rails application based around a blog with user authentication and authorisation. It has been thrown together fairly rapidly to demonstrate an authentication strategy for a demo blog application.
+This is a demo rails application based around a blog with user authentication and authorisation. My aim is to use this as a demonstration of my coding skills and experience. Be warned, it is very much a work in progress but it is my hope to consistently update this with new features. Currently the css styling leaves a lot to be desired but that is not the aim of this project. I will endevour to tidy this up somewhat when I get a chance.
 
 [![Build Status](https://travis-ci.org/quilligana/demo_blog.svg?branch=master)](https://travis-ci.org/quilligana/demo_blog)
 [![Code Climate](https://codeclimate.com/github/quilligana/demo_blog.png)](https://codeclimate.com/github/quilligana/demo_blog)
 [![Coverage Status](https://img.shields.io/coveralls/quilligana/demo_blog.svg)](https://coveralls.io/r/quilligana/demo_blog)
+
+##Features
+
+I am constantly adding new features to this application for demonstration purposes. If you are interested in hiring me, and you would like to see a particular feature built out, just add it to the GitHub Issues and I will do my best to add it as soon as possible.
+
+-[x] Blog application
+-[x] Basic user authentication and authorization
+
+
+-[] Deploy to Heroku
+-[] Login with Twitter or Facebook using OmniAuth
+-[] Email notifications to users
+-[] Background Jobs
+-[] Comments System
+-[] Build out a secure json API for accessing articles and comments
+-[] Photo upload to Amazon S3 & display in blog post
+-[] Facebook, Twitter and Pinterest share links
 
 ##Installation
 
