@@ -73,4 +73,4 @@ Then:
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-This gem was created by Aidan Quilligan and is released under the MIT license.
+This project was created by Aidan Quilligan and is released under the MIT license (see LICENSE file in project root).
