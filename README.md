@@ -2,6 +2,8 @@
 
 This is a demo rails application based around a blog with user authentication and authorisation. My aim is to use this as a demonstration of my coding skills and experience. Be warned, it is very much a work in progress but it is my hope to consistently update this with new features. Currently the css styling leaves a lot to be desired but that is not the aim of this project. I will endevour to tidy this up somewhat when I get a chance.
 
+To keep tabs on my code I've added some external code monitoring services as you can see from the badges below. TravisCI for build status, CodeClimate for code quality and COVERALLS for test coverage. This pushes me to keep the code base clean and efficient.
+
 [![Build Status](https://travis-ci.org/quilligana/demo_blog.svg?branch=master)](https://travis-ci.org/quilligana/demo_blog)
 [![Code Climate](https://codeclimate.com/github/quilligana/demo_blog.png)](https://codeclimate.com/github/quilligana/demo_blog)
 [![Coverage Status](https://img.shields.io/coveralls/quilligana/demo_blog.svg)](https://coveralls.io/r/quilligana/demo_blog)
