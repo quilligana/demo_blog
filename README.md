@@ -10,18 +10,18 @@ This is a demo rails application based around a blog with user authentication an
 
 I am constantly adding new features to this application for demonstration purposes. If you are interested in hiring me, and you would like to see a particular feature built out, just add it to the GitHub Issues and I will do my best to add it as soon as possible.
 
--[x] Blog application
--[x] Basic user authentication and authorization
+- [x] Blog application
+- [x] Basic user authentication and authorization
 
 
--[] Deploy to Heroku
--[] Login with Twitter or Facebook using OmniAuth
--[] Email notifications to users
--[] Background Jobs
--[] Comments System
--[] Build out a secure json API for accessing articles and comments
--[] Photo upload to Amazon S3 & display in blog post
--[] Facebook, Twitter and Pinterest share links
+- [ ] Deploy to Heroku
+- [ ] Login with Twitter or Facebook using OmniAuth
+- [ ] Email notifications to users
+- [ ] Background Jobs
+- [ ] Comments System
+- [ ] Build out a secure json API for accessing articles and comments
+- [ ] Photo upload to Amazon S3 & display in blog post
+- [ ] Facebook, Twitter and Pinterest share links
 
 ##Installation
 
