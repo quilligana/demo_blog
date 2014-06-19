@@ -38,6 +38,7 @@ end
 
 group :test do
   # gem 'capybara-webkit', '>= 1.0.0'
+  gem 'faker'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'formulaic'

@@ -167,6 +167,23 @@
         null,
         null
       ],
+      "/Users/aidanquilligan/rails_projects/demo_blog/spec/factories/users.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/aidanquilligan/rails_projects/demo_blog/config/routes.rb": [
         1,
         1,
@@ -265,30 +282,8 @@
       "/Users/aidanquilligan/rails_projects/demo_blog/app/helpers/users_helper.rb": [
         1,
         null
-      ],
-      "/Users/aidanquilligan/rails_projects/demo_blog/app/models/user.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/aidanquilligan/rails_projects/demo_blog/app/models/post.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
       ]
     },
-    "timestamp": 1403133042
+    "timestamp": 1403221835
   }
 }
