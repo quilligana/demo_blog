@@ -43,6 +43,7 @@ cd demo_blog
 
 But for now, you can just clone the repository. Then:
 
+- Run `bundle install`
 - Change the title of the `config/database.yml.sample` file to `config/database.yml`
 - Run `rake db:create'
 - Run `rake db:migrate`
