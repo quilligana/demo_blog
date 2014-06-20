@@ -21,6 +21,9 @@ gem 'uglifier'
 gem 'unicorn'
 gem 'coveralls', require: false
 gem 'bcrypt-ruby', '~> 3.1.2'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 group :development do
   gem 'foreman'
