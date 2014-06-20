@@ -19,6 +19,7 @@ I am constantly adding new features to this application for demonstration purpos
 
 ###TODO
 
+- [ ] Improve styling with bootstrap
 - [ ] Implement `./bin/setup` configuration
 - [ ] Deploy to Heroku
 - [ ] Login with Twitter or Facebook using OmniAuth
