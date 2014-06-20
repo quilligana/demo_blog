@@ -3,7 +3,7 @@ require "spec_helper"
 feature "Sign up" do
 
   before :each do
-    @user = create(:user)
+    @user = FactoryGirl.create(:user)
   end
 
   scenario 'Guest signs up with valid credentials' do
@@ -22,12 +22,14 @@ feature "Sign up" do
 
   scenario 'Guest signs up with a bad email address' do
     user_signs_up_with_email('bademail')
-    expect(page).to have_content 'A VALID EMAIL IS REQUIRED'
+    expect(page).to have_content 'Email is invalid'
   end
 
   scenario 'Guest signs up with an existing email address' do
     user_signs_up_with_email(@user.email)
-    expect(page).to have_content 'A VALID EMAIL IS REQUIRED'
+
+    expect(current_path).to eq users_path
+    expect(page).to have_content 'Email has already been taken'
   end
 
   # Helpers
