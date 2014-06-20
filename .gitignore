@@ -26,5 +26,5 @@ demo_blog.sublime-workspace
 .DS_Store
 .idea
 .secret
-.last_run.json
-.resultset.json
+coverage/.last_run.json
+coverage/.resultset.json
